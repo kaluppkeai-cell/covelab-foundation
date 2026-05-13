@@ -190,10 +190,12 @@ Code-Chat updated F-Schritt-Status nur mit evidence_required-Belegung. CTO verif
 ## PHASE 3: Universalitaet + Layer-Trennung (10-15h, Tag 20-23)
 
 ### F3.1: Repo-Verzeichnis-Refactor /framework + /project
-- **Status:** fail
-- **Scope:** Verzeichnis-Trennung im aktuellen Repo: /framework/* fuer Universal-Layer (CLAUDE.md, AGENTS.md, .claude/, docs/UNIVERSAL_*, decisions/0007 + 0010 + 0011 als Universal-Process-ADRs, patterns/best-practice-*, STOLPERSTEINE.md, session_log.md, COORDINATION.md, HANDOVER-Konvention) und /project/* fuer CoveLab-spezifisch (PROJECT_NORDSTERN.md statt UNIVERSAL_NORDSTERN, Mining-Patterns, projekt-spezifische ADRs)
-- **Evidence Required:** Repo-Listing zeigt klare Trennung, Cross-References korrekt aktualisiert
-- **Effort:** 4-6h
+- **Status:** pass
+- **Completed:** 2026-05-13
+- **Scope:** Option B Minimal (CEO-Entscheidung Tag 19): nur Docs-Files verschoben. CLAUDE.md + .claude/ + operative Root-Files bleiben an Root (Anthropic Hard-Constraint: Claude Code laedt .claude/ + CLAUDE.md nur von Repo-Root). framework/ kriegt Universal-Process-ADRs + alle best-practice-Snapshots + framework/docs. project/ kriegt CoveLab-spezifische ADRs + Docs. 49 Renames + 16 Cross-Reference-Patches (agents/hooks/tools/bin + Root-Docs) in einem Atomic-Commit.
+- **Evidence:** Commit 7935ac1 — 65 files changed, 277 insertions, 59 deletions. framework/decisions/ (4), framework/patterns/ (21), framework/docs/ (5), project/decisions/ (8), project/patterns/ (6), project/docs/ (5). grep-Sweep NO_STALE_REMAIN nach Python-Patch. git rename-detection 100% similarity (ausser RESEARCH_INDEX 96% wg gleichzeitiger Modifikation).
+- **Scope-Revision-Notiz:** Original-FAHRPLAN-Spec (CLAUDE.md + .claude/ nach /framework/) war technisch falsch. Recherche-Authority: framework/patterns/best-practice-repo-layer-separation.md (Tag 19, Schicht 1+2+3). Neue Stolpersteine CO + CP aus F3.1-Durchfuehrung.
+- **Effort actual:** ca 5h (Recherche 2h + 3 Korrektur-Runden wegen CK-Drift + Scope-Creep-Cleanup + Cross-Reference-Patch)
 - **Depends:** F2.3
 
 ### F3.2: Generic Template-Repo "covelab-foundation" als separater Repo
