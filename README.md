@@ -54,7 +54,9 @@ Delivered as a ready-to-run package. Lifetime updates included on Pro.
 
 *One-time purchase, no subscription. Sold and delivered through Polar (handles payment, invoicing, and tax). Agency tier coming later.*
 
-→ **Buy:** see the purchase links on the product page. *(Polar checkout links — Core / Pro — inserted at listing.)*
+→ **Buy now (one-time, via Polar):**
+- **Core — $79:** https://buy.polar.sh/polar_cl_OSE0dLyFMQl3UoPaswu86wMCnCO8T9gxeUuK20NA9YT
+- **Pro — $149:** https://buy.polar.sh/polar_cl_uEtcuG1MkES0Za6TkKkmpBqdaYf5ExtAkVXAL0MmdHS
 
 ---
 
