@@ -4,7 +4,7 @@
 
 AI that runs your project tasks **on its own — without wandering off the plan** — while you keep the final say.
 
-Lock-Mechanic. Phase-Gates. A growing database of 70+ real-world pitfalls. Built under its own discipline for 45 days of daily use before it was ever sold.
+Lock-Mechanic. Phase-Gates. A growing database of 70+ real-world pitfalls. Built under its own discipline through about three weeks of daily use on our own project before it was ever sold.
 
 ---
 
@@ -35,10 +35,10 @@ A complete, running operations stack — not a folder of files to wire up yourse
 - A **3-role way of working** that separates deciding, planning, and building, so mistakes get caught early.
 - **Session discipline** that keeps every working session (live *and* autonomous) on the plan.
 - **Autonomous task execution** that stops at your checkpoints.
-- **Live monitoring from your phone.**
+- **Run and steer entire projects from your phone or browser.**
 - The full **70+ pitfall database** with fixes, the **rule catalog**, the **architecture decisions**, the complete **method guide**, and **example projects**.
 
-Delivered as a ready-to-run package. Lifetime updates included on Pro.
+Delivered as a ready-to-run package.
 
 > The detailed component list, the full method guide, and the running parts ship **inside the paid package**. This page is the overview.
 
@@ -50,7 +50,7 @@ Delivered as a ready-to-run package. Lifetime updates included on Pro.
 |------|-------|-----|
 | **Free** | $0 | This overview + framework skeleton + templates. See for yourself how it's built. |
 | **Core** | $79 | The working stack for one project — discipline, autonomy, a starter set of pitfalls, quickstart, one example project. |
-| **Pro** | $149 | Everything: full 70+ pitfall database, all components, all decisions, the complete method guide, two example projects, lifetime updates. |
+| **Pro** | $149 | Everything: full 70+ pitfall database, all components, all decisions, the complete method guide, and two example projects. |
 
 *One-time purchase, no subscription. Sold and delivered through Polar (handles payment, invoicing, and tax). Agency tier coming later.*
 
